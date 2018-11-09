@@ -2,11 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Assumptions
-
-- The widget needs to be responsive
-- If `navigator` fails to retreive a location, then the default location is Sydney.
-
 ## Instructions
 
 Clone the project first and then, from the directory, you can run:
@@ -34,3 +29,17 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+<br><br>
+
+## Assumptions
+
+- The widget needs to be responsive
+- If `navigator` fails to retreive a location, then the default location is Sydney.
+
+<br><br>
+
+## Liberties
+
+- In the display widget, the weather icon size is smaller than in designs due to OpenWeatherMaps having only returning a fix size image(50 x 50);
+-
