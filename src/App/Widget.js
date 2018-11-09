@@ -82,7 +82,7 @@ class Widget extends React.Component {
 					<h3>{title.length > 0 ? title : 'TITLE OF WIDGET'}</h3>
 
 					<div className="flex center margin-top-3">
-						<img className="icon margin-right-2" src={ICON_BASE_URL + weather[0].icon + '.png'} />
+						<img className="icon margin-right-2" src={ICON_BASE_URL + weather[0].icon + '.png'} alt="weather-icon" />
 
 						<div className="flex col">
 							<p className="location">{name}</p>
